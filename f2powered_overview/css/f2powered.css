@@ -51,6 +51,8 @@ header {
     font-size: 24px;
     font-weight: bold;
     display: flex;
+    align-items: center;
+    text-align: center;
     list-style: none;
     padding-right: 150px;
   }
@@ -82,8 +84,6 @@ header {
       list-style: none;
       padding-right: 0px;
       margin-right: -0px;
-      text-align: center;
-      vertical-align: middle;
     }
     header .navi li {
       margin: 0px 0px 0px 20px;
@@ -92,6 +92,7 @@ header {
       margin-left: 0;
     }
     header .navi li a {
+      vertical-align: middle;
       display: block;
       box-sizing: border-box;
       text-decoration: none;
