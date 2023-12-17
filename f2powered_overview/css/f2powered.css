@@ -71,6 +71,15 @@ header {
   header .navi li a:hover {
     text-decoration: underline;
   }
+  /*レスポンシブ-改行*/
+  .newline1 {
+    display: none;
+  }
+  @media screen and (max-width: 480px) {
+    .newline1 {
+     display: block;
+    }
+  }
 
   @media screen and (max-width: 480px) {
     header .navi {
@@ -82,7 +91,7 @@ header {
       font-weight: bold;
       display: flex;
       list-style: none;
-      padding-right: 0px;
+      padding-right: 10px;
       margin-right: -0px;
     }
     header .navi li {
@@ -92,7 +101,6 @@ header {
       margin-left: 0;
     }
     header .navi li a {
-      vertical-align: middle;
       display: block;
       box-sizing: border-box;
       text-decoration: none;
