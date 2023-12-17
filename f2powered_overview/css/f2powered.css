@@ -36,10 +36,10 @@ header {
 @media screen and (max-width: 480px) {
    .logo {
      position: relative;
-     width: 20px;
+     width: 125px;
      vertical-align: middle;
      left: 5px;
-     margin: -20px;
+     margin-left: -20px;
      padding: 0px;
     }
   }
