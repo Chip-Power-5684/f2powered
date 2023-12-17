@@ -28,12 +28,21 @@ header {
   }
   .logo {
     position: relative;
-    left: 160px;
+    width: 400px;
+    left: 100px;
     margin: 0;
     padding: 0;
-    width: 100px;
   }
-  
+  @media screen and (max-width: 480px) {
+   .logo {
+     position: relative;
+     width: 100px;
+     vertical-align: middle;
+     left: 5px;
+     margin: -20px;
+     padding: 0px;
+    }
+  }
   /* header-navi */
   
   header .navi {
@@ -43,6 +52,7 @@ header {
     font-weight: bold;
     display: flex;
     list-style: none;
+    padding-right: 150px;
   }
   header .navi li {
     margin: 5px 0 5px 40px;
@@ -59,7 +69,38 @@ header {
   header .navi li a:hover {
     text-decoration: underline;
   }
-  
+
+  @media screen and (max-width: 480px) {
+    header .navi {
+      position: relative;
+      left: 40px;
+      margin: 0 0 0 auto;
+      padding: 0;
+      font-size: 12px;
+      font-weight: bold;
+      display: flex;
+      list-style: none;
+      padding-right: 0px;
+      margin-right: -0px;
+      text-align: center;
+      vertical-align: middle;
+    }
+    header .navi li {
+      margin: 0px 0px 0px 20px;
+    }
+    header .navi li:first-child {
+      margin-left: 0;
+    }
+    header .navi li a {
+      display: block;
+      box-sizing: border-box;
+      text-decoration: none;
+      color: #ffcc00;
+    }
+    header .navi li a:hover {
+      text-decoration: underline;
+    }
+  }  
   /* layout */
   
   body {
@@ -93,6 +134,30 @@ header {
     text-align: center;
     z-index: 3;
   }
+
+@media screen and (max-width: 480px) {
+  .mouse {
+    margin: 0px 0px 0px 0px;
+    position   : relative;
+  }
+  .mouse:hover .word {
+    display: inline;
+  }  
+  .word {
+    position   : absolute;
+    display: none;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color:rgb(255, 255, 255);
+    width:100px;
+    top: 50px;
+    left: -15px;
+    font-size: 12px;
+    text-align: center;
+    z-index: 3;
+  }
+}
 /*ヘッダーはここまで*/
 
 /*目次*/
@@ -144,6 +209,45 @@ header {
     opacity: 1;
     transform: translateY(0);
   }
+}
+@media screen and (max-width: 480px) {
+  .example {/*親div*/
+    position: relative;/*相対配置*/
+    }
+  
+  .example p {
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    /*文字の装飾は省略*/
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 24px;
+    font-family: sans-serif;
+    animation-name: fadeUpAnime;
+    animation-delay: 0.3s;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    opacity:0;
+    transform: translateY(50px);
+  }
+      
+  @keyframes fadeUpAnime{
+    from {
+      opacity: 0;
+      transform: translateY(100px);
+    }
+      
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  } 
 }
 
 body {
