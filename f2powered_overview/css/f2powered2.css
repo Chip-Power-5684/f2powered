@@ -140,14 +140,14 @@
       .textblock1-1 {
         padding: 0px;
         position: absolute;
-        padding-top: 5px;
+        top: -150px;
       }
       
       .imgblock1-1 {
         width: 100%;
         position: absolute;
         transform: translateX(-50%);
-        top: 265px;
+        padding-top: 5px;
       }
 
       .title1 {
