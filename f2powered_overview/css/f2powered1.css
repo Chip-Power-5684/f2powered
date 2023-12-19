@@ -17,7 +17,7 @@ header {
     left: 0;
     width: 100%;
     padding: 20px 40px;
-    background: #000000;
+    background: #101010;
     box-sizing: border-box;
   }
   header .inner {
@@ -41,7 +41,7 @@ header {
     left: 0;
     width: 100%;
     padding: 5px 40px;
-    background: #000000;
+    background: #101010;
     box-sizing: border-box;
   }
   header .inner {
@@ -205,88 +205,93 @@ header {
   position: relative;/*相対配置*/
   }
 
+.example img {
+  display: flex;
+  width: 100%;
+}
+
 .example p {
+  display: inline-block;
   position: absolute;
-  top: 40%;
-  left: 35%;
-  -ms-transform: translate(-50%,-50%);
-  -webkit-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
-  margin:0;
-  padding:0;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
   /*文字の装飾は省略*/
   color: #ffffff;
-  font-weight: 800;
   font-size: 50px;
+  font-weight: 800;
   font-family: sans-serif;
-  animation-name: fadeUpAnime;
-  animation-delay: 0.3s;
-  animation-duration: 1s;
-  animation-fill-mode: both;
-  opacity:0;
-  transform: translateY(50px);
+  text-align: center;
 }
-    
+
+.fadeUp {
+  animation-name:fadeUpAnime;
+  animation-duration:0.6s;
+  animation-fill-mode:forwards;
+  opacity: 0;
+
+}
 @keyframes fadeUpAnime{
-  from {
+  0% {
     opacity: 0;
     transform: translateY(100px);
+    transform: translate(-50%, 0%);
   }
     
-  to {
+  100% {
     opacity: 1;
-    transform: translateY(0);
+    transform: translate(-50%, -50%);
   }
 }
+
+
+
 @media screen and (max-width: 480px) {
   .example {/*親div*/
     position: relative;/*相対配置*/
     }
   
+  .example img {
+    display: flex;
+    width: 100%;
+  }
+  
   .example p {
+    display: inline-block;
     position: absolute;
+    left: 50%;
     top: 45%;
-    left: 25%;
-    -ms-transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
-    margin:0;
-    padding:0;
+    transform: translate(-50%, -50%);
     /*文字の装飾は省略*/
     color: #ffffff;
+    font-size: 18px;
     font-weight: 800;
-    font-size: 24px;
     font-family: sans-serif;
-    animation-name: fadeUpAnime;
-    animation-delay: 0.3s;
-    animation-duration: 1s;
-    animation-fill-mode: both;
-    opacity:0;
-    transform: translateY(50px);
+    text-align: center;
   }
-      
+  
+  .fadeUp {
+    animation-name:fadeUpAnime;
+    animation-duration:0.6s;
+    animation-fill-mode:forwards;
+    opacity: 0;
+  
+  }
   @keyframes fadeUpAnime{
-    from {
+    0% {
       opacity: 0;
       transform: translateY(100px);
+      transform: translate(-50%, 0%);
     }
       
-    to {
+    100% {
       opacity: 1;
-      transform: translateY(0);
+      transform: translate(-50%, -50%);
     }
-  } 
+  }
 }
 
-body {
-    background-color: #000000;
-}
 
-.background_1 {
-	position: relative;
-	top: 0;
-	bottom: 0;
-	width: 1000px;
-	background: #000000;
-}
+
+
 /*メインはここまで*/
