@@ -1,4 +1,4 @@
-l/*メイン*/
+/*メイン*/
 /*チームテーマ　Top*/
 .teamtheme1 {
   position: absolute;
@@ -147,7 +147,7 @@ l/*メイン*/
         width: 100%;
         position: absolute;
         transform: translateX(-50%);
-        top: 260px;
+        top: 100%;
       }
 
       .title1 {
@@ -282,7 +282,7 @@ l/*メイン*/
         width: 90%;
         position: absolute;
         transform: translateX(-50%);
-        top: 75%;
+        top: 70%;
       }
 
       .box1 {
