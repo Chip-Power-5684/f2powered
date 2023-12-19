@@ -147,7 +147,7 @@
         width: 100%;
         position: absolute;
         transform: translateX(-50%);
-        top: 260px;
+        top: 240px;
       }
 
       .title1 {
@@ -165,8 +165,7 @@
         font-family: monospace;
         font-size: 14px;
         font-weight: 500;
-        width: 100%;
-        outline: dashed 1px black;
+        width: 100%;;
         text-align: center;
         box-sizing: content-box;
         margin-top: -20px;
