@@ -147,7 +147,7 @@
         width: 100%;
         position: absolute;
         transform: translateX(-50%);
-        padding-top: 10%;
+        padding-top: 5px;
       }
 
       .title1 {
@@ -165,7 +165,7 @@
         font-family: monospace;
         font-size: 14px;
         font-weight: 500;
-        width: 100%;;
+        width: 100%;
         text-align: center;
         box-sizing: content-box;
         margin-top: -20px;
@@ -298,3 +298,59 @@
       }
 }
 /*テキストブロック　2　End*/
+
+/*メンバー一覧*/
+.h2 {
+  position: relative;
+  padding: 0.2em 0.5em;
+  background: linear-gradient(to right, rgb(60, 21, 0),rgb(180, 0, 0), rgb(60, 0, 0));
+  color: white;
+  font-weight: lighter;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.56);
+}
+
+.member1 {
+  position: relative;
+  display: flex;
+}
+
+.member1 p {
+  font-size: 40px;
+  margin-left: 35px;
+}
+
+.name_design {
+  color: #ffffff;/*文字色*/
+  background: #262626;/*背景色*/
+  border-left: solid 5px #2f9aff;/*左線*/
+  border-bottom: solid 3px #9a9a9a;/*下線*/
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.individual1 {
+  display: flex;
+  margin-left: 300px;
+}
+
+.individual1 img {
+  width: 300px;
+  background: linear-gradient(rgb(255, 200, 0), rgb(190, 160, 0));
+}
+
+.individual2 {
+  position: absolute;
+  display: flex;
+  margin-left: 1200px;
+}
+
+.individual2 img {
+  width: 300px;
+  background: linear-gradient(rgb(255, 200, 0), rgb(190, 160, 0));
+}
+
+.spacer1 {
+  padding: 25px;
+}
