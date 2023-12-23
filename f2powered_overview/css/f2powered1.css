@@ -15,7 +15,7 @@ header {
     z-index: 999;
     top: 0;
     left: 0;
-    max-width: 100%;
+    width: 100%;
     padding: 20px 40px;
     background: #101010;
   }
@@ -28,7 +28,7 @@ header {
   .logo {
     position: relative;
     width: 400px;
-    left: 100px;
+    left: 50px;
     margin: 0;
     padding: 0;
   }
@@ -48,7 +48,7 @@ header {
     z-index: 999;
     top: 0;
     left: 0;
-    max-width: 100vw;
+    width: 100%;
     
   }
   header .inner {
@@ -88,7 +88,7 @@ header {
     padding-right: 150px;
   }
   header .navi li {
-    margin: 0px 0 5px 0px;
+    margin: 0px 0px 10px 20px;
   }
   header .navi li:first-child {
     margin-left: 0;
@@ -115,7 +115,7 @@ header {
   @media screen and (max-width: 480px) {
     header .navi {
       position: relative;
-      left: -70px;
+      left: 0%;
       margin: auto;
       padding: 0;
       font-size: 12px;
@@ -128,7 +128,7 @@ header {
       line-height: 15px;
     }
     header .navi li {
-      margin: 0px 20px 0px 0px;
+      margin: 0px 0px 0px 15px;
     }
     header .navi li:first-child {
       margin-left: 0;
