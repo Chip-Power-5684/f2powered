@@ -1,4 +1,6 @@
 /*メイン*/
+
+
 /*チームテーマ　Top*/
 .teamtheme1 {
   position: absolute;
@@ -302,7 +304,6 @@
 /*メンバー一覧*/
 .h2 {
   position: relative;
-  display: inline-block;
   padding: 0.2em 0.5em;
   background: linear-gradient(to right, rgb(60, 21, 0),rgb(180, 0, 0), rgb(60, 0, 0));
   width: 1800px;
@@ -381,7 +382,7 @@
     margin-left: 10px;
   }
   
-  .name_design {
+  .name_design {display: none;
     color: #ffffff;/*文字色*/
     background: #262626;/*背景色*/
     border-left: solid 5px #2f9aff;/*左線*/
@@ -407,7 +408,7 @@
   .individual2 {
     position: absolute;
     display: flex;
-    margin-left: 55%;
+    margin-left: 52.5%;
   }
   
   .individual2 img {
