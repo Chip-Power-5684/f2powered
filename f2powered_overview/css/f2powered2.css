@@ -382,7 +382,7 @@
     margin-left: 10px;
   }
   
-  .name_design {display: none;
+  .name_design {
     color: #ffffff;/*文字色*/
     background: #262626;/*背景色*/
     border-left: solid 5px #2f9aff;/*左線*/
