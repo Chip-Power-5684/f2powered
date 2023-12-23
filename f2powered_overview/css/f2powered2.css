@@ -363,7 +363,7 @@
   .h2 {
     position: relative;
     background: linear-gradient(to right, rgb(60, 21, 0),rgb(180, 0, 0), rgb(60, 0, 0));
-    width: 300px;
+    width: 50%;
     color: white;
     font-weight: lighter;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.56);
@@ -399,7 +399,7 @@
   }
   
   .individual1 img {
-    width: 65px;
+    width: 15%;
     align-self: flex-start;
     background: linear-gradient(rgb(255, 200, 0), rgb(190, 160, 0));
   }
@@ -411,7 +411,7 @@
   }
   
   .individual2 img {
-    width: 65px;
+    width: 30%;
     align-self: flex-start;
     background: linear-gradient(rgb(255, 200, 0), rgb(190, 160, 0));
   }
