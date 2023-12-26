@@ -265,6 +265,8 @@ header {
   margin-top: 2%;
   font-family: sans-serif;
   font-size: 30px;
+  font-weight: 200;
+  text-decoration: none;
   color: #000000;
   text-align: center;
   overflow-wrap: anywhere;
@@ -287,7 +289,9 @@ header {
   }
 }
 
-
+.a {
+  z-index: 990;
+}
 
 @media screen and (max-width: 480px) {
   .example {/*親div*/
@@ -335,6 +339,7 @@ header {
   .buttonRound {
     position: absolute;
     display: flex;
+    z-index: 999;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -344,6 +349,8 @@ header {
     margin-top: 2%;
     font-family: sans-serif;
     font-size: 14px;
+    font-weight: 200;
+    text-decoration: none;
     color: #000000;
     text-align: center;
     overflow-wrap: anywhere;
@@ -351,6 +358,10 @@ header {
     border-radius: 32px; /* (buttonの高さ / 2) の値 */
     left: 50%;
     transform: translateX(-50%)
+  }
+
+  .a {
+    z-index: 990;
   }
 }
 
