@@ -442,15 +442,26 @@ footer {
   background-color: #151515;
 }
 
-footer p {
+.footer_p {
   position: absolute;
   font-size: 24px;
   color: #ffffff;
+  text-align: center;
+  justify-content: center;
   margin: 0;
   padding: 0;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+
+.footer_p a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #700000;
 }
 
 @media screen and (max-width: 480px) {
@@ -465,10 +476,12 @@ footer p {
     background-color: #151515;
   }
   
-  footer p {
+  .footer_p {
     position: absolute;
     font-size: 12px;
     color: #ffffff;
+    text-align: center;
+    justify-content: center;
     margin: 0;
     padding: 0;
     left: 50%;
