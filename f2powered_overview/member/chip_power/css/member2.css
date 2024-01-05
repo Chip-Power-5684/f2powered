@@ -321,12 +321,12 @@
   }
   
   .imgcenter {
-    text-align: left;
+    text-align: center;
     padding-left: 0px;
   }
 
   .car_img {
-    width: 432px;
+    width: 85%;
   }
 }
 /*――――――――――――――――――――――――― 内容　End ―――――――――――――――――――――――――*/
