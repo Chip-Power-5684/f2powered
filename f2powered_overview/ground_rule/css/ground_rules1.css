@@ -1,0 +1,342 @@
+/*スクロールバー*/
+::-webkit-scrollbar {
+    background: #000000;
+    width: 8.5px;
+    height: 30px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(85, 85, 85);
+    height: 30px;
+    border-radius: 20px;
+  }
+  /*ヘッダー*/
+  header {
+      position: fixed;
+      z-index: 999;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 20px 40px;
+      background: #000000;
+    }
+    header .inner {
+      position: relative;
+      display: flex;
+      align-items: center;
+      height: 100%;
+    }
+    .logo {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      width: 400px;
+      margin: 0;
+      padding: 0;
+    }
+    .pc_view {
+      display: block;
+    }
+    
+    .sp_view {
+      display: none;
+    }
+  @media screen and (max-width: 480px) {
+    header {
+      position: relative;
+      position: fixed;
+      background: #000000;
+      box-sizing: border-box;
+      z-index: 999;
+      top: 0;
+      left: 0;
+      width: 100%;
+      
+    }
+    header .inner {
+      position: relative;
+      display: flex;
+      align-items: center;
+      height: 100%;
+      padding: 0px;
+    }
+     .logo {
+       position: relative;
+       width: 125px;
+       vertical-align: middle;
+       left: 5px;
+       margin-left: -20px;
+       padding: 0px;
+      }
+      .pc_view {
+        display: none;
+      }
+      
+      .sp_view {
+        display: block;
+      }
+    }
+    /* header-navi */
+    
+    header .navi {
+      margin: 0 0 0 auto;
+      padding: 0;
+      font-size: 24px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      list-style: none;
+      padding-right: 150px;
+    }
+    header .navi li {
+      margin: 0px 0px 10px 50px;
+    }
+    header .navi li:first-child {
+      margin-left: 0;
+    }
+    header .navi li a {
+      display: block;
+      box-sizing: border-box;
+      text-decoration: none;
+      color: #ffcc00;
+    }
+    header .navi li a:hover {
+      text-decoration: underline;
+    }
+    /*レスポンシブ-改行*/
+    .newline1 {
+      display: none;
+    }
+    @media screen and (max-width: 480px) {
+      .newline1 {
+       display: block;
+      }
+    }
+  
+    @media screen and (max-width: 480px) {
+      header .navi {
+        position: relative;
+        left: 0%;
+        margin: auto;
+        padding: 0;
+        font-size: 12px;
+        font-weight: bold;
+        display: flex;
+        list-style: none;
+        padding: 0px;
+        padding-right: 0px;
+        margin-right: -15px;
+        line-height: 15px;
+      }
+      header .navi li {
+        margin: 0px 0px 0px 15px;
+      }
+      header .navi li:first-child {
+        margin-left: 0;
+      }
+      header .navi li a {
+        display: block;
+        box-sizing: border-box;
+        text-decoration: none;
+        color: #ffcc00;
+      }
+      header .navi li a:hover {
+        text-decoration: underline;
+      }
+      .textsize1 {
+        font-size: 8px;
+      }
+    }  
+    /* layout */
+    
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #030303;
+    }
+    #main {
+      height: 0px;
+    }
+  
+  
+  
+    .mouse {
+      position   : relative;
+      margin: 0px 0px 0px 0px;
+    }
+    .mouse:hover .word {
+      display: inline;
+    }  
+    .word {
+      position   : absolute;
+      display: none;
+      padding: 10px;
+      color: rgb(0, 0, 0);
+      border-radius: 5px;
+      background-color:rgb(255, 255, 255);
+      width:200px;
+      top: 50px;
+      left: 24px;
+      font-size: 24px;
+      text-align: center;
+      z-index: 3;
+    }
+  
+  @media screen and (max-width: 480px) {
+    .mouse {
+      margin: 0px 0px 0px 0px;
+      position   : relative;
+    }
+    .mouse:hover .word {
+      display: inline;
+    }  
+    .word {
+      position   : absolute;
+      display: none;
+      padding: 10px;
+      color: rgb(0, 0, 0);
+      border-radius: 5px;
+      background-color:rgb(255, 255, 255);
+      width:100px;
+      top: 50px;
+      left: -15px;
+      font-size: 12px;
+      text-align: center;
+      z-index: 3;
+    }
+  }
+  /*ヘッダーはここまで*/
+  
+  /*目次*/
+  
+  /*目次はここまで*/
+  
+  /*メイン*/
+  .imeage1 {
+      max-width: 100%;
+      height: 100%;
+      padding: -15px;
+      background-size: cover;
+      background-position: center;
+  }
+  
+  .example {/*親div*/
+    position: relative;/*相対配置*/
+    vertical-align: bottom;
+    line-height: 1;
+      font-size: 0;
+    }
+  
+  .example img {
+    display: flex;
+    display: block;
+    width: 100%;
+  }
+  
+  .example p {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    /*文字の装飾は省略*/
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .fadeUp {
+    animation-name:fadeUpAnime;
+    animation-duration:0.6s;
+    animation-fill-mode:forwards;
+    opacity: 0;
+  
+  }
+  
+  .buttonRound {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 320px;
+    height: 64px;
+    padding: 0px 0px;
+    margin-top: 2%;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+    overflow-wrap: anywhere;
+    background-color: #ffbf00;
+    border-radius: 32px; /* (buttonの高さ / 2) の値 */
+    left: 50%;
+    transform: translateX(-50%)
+  }
+  
+  @keyframes fadeUpAnime{
+    0% {
+      opacity: 0;
+      transform: translateY(100px);
+      transform: translate(-50%, 0%);
+    }
+      
+    100% {
+      opacity: 1;
+      transform: translate(-50%, -50%);
+    }
+  }
+  
+  
+  
+  @media screen and (max-width: 480px) {
+    .example {/*親div*/
+      position: relative;/*相対配置*/
+      }
+    
+    .example img {
+      display: flex;
+      width: 100%;
+    }
+    
+    .example p {
+      display: inline-block;
+      position: absolute;
+      left: 50%;
+      top: 45%;
+      transform: translate(-50%, -50%);
+      /*文字の装飾は省略*/
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: 800;
+      font-family: sans-serif;
+      text-align: center;
+    }
+    
+    .fadeUp {
+      animation-name:fadeUpAnime;
+      animation-duration:0.6s;
+      animation-fill-mode:forwards;
+      opacity: 0;
+    
+    }
+    @keyframes fadeUpAnime{
+      0% {
+        opacity: 0;
+        transform: translateY(100px);
+        transform: translate(-50%, 0%);
+      }
+        
+      100% {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+  
+  
+  
+  
+  /*メインはここまで*/
