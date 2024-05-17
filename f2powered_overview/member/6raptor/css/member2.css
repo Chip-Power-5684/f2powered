@@ -1,0 +1,379 @@
+@media screen and (max-width: 480px) {
+    .wrapper {
+      margin-top: 10%;
+    }
+  }
+  
+  /*メイン*/
+/*――――――――――――――――――――――――― グローバル　Top ―――――――――――――――――――――――――*/
+.container {
+  max-width: 100%;
+  position: static;
+  margin-left: 351.500px;
+  margin-right: 351.500px;
+  padding-top: 30px;
+  padding-bottom: 200px;
+}
+
+.space1 {
+  margin-top: 200px;
+}
+
+@media screen and (max-width: 480px) {
+  .space1 {
+    margin-top: 100px;
+  }
+}
+/*――――――――――――――――――――――――― グローバル　End ―――――――――――――――――――――――――*/
+  
+/*――――――――――――――――――――――――― ネーム　Top ―――――――――――――――――――――――――*/
+.flex1 {
+  position: absolute;
+}
+
+.img-fluid {
+  max-width: 300px;
+  height: auto;
+  margin-top: -80px;
+  padding-left: 750px;
+}
+
+/*-------*/
+.strip {
+  background: rgba(20, 20, 20, 0.9);
+  color: #FFFFFF;
+  padding: 0.25rem 2rem;
+  position: relative;
+  width: 35%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 0;
+  font-family: "URWDINCond-Bold";
+  font-size: 36px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.strip:before, .strip:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 100%;
+}
+
+.strip:before {
+  left: 0;
+  width: 15px;
+  background-color: #D31E21;
+}
+/*------*/
+.driver-summary {
+  padding: 0;
+  color: #FFFFFF;
+  padding-left: 50px;
+}
+
+.driver-summary .driver-name {
+  text-transform: uppercase;
+  font-family: "URWDINCond-Bold";
+  font-size: 30px;
+}
+
+.driver-summary .driver-name .flag {
+  height: 30px;
+  padding-left: 15px;
+}
+
+.driver-summary .driver-information {
+  padding: 0;
+}
+
+.driver-summary .driver-information .information {
+  list-style: none;
+}
+
+.driver-summary .driver-information h1 {
+  padding-left: 0%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.driver-summary .driver-information p {
+  padding-left: 0%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    max-width: 100%;
+    position: static;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+
+  .flex1 {
+    position: relative;
+  }
+  
+  .img-fluid {
+    width: 60%;
+    height: 350px;
+    margin-top: 0px;
+    padding-left: 0%;
+    align-items: center;
+    object-fit: cover;
+    object-position: top;
+  }
+  
+  /*-------*/
+  .strip {
+    background: rgba(20, 20, 20, 0.9);
+    color: #FFFFFF;
+    padding: 0.25rem 2rem;
+    position: relative;
+    width: 70%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0;
+    font-family: "URWDINCond-Bold";
+    font-size: 24px;
+    font-style: italic;
+    text-transform: uppercase;
+  }
+  
+  .strip:before, .strip:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 100%;
+  }
+  
+  .strip:before {
+    left: 0;
+    width: 15px;
+    background-color: #D31E21;
+  }
+  /*------*/
+  .driver-summary {
+    padding: 0;
+    color: #FFFFFF;
+    padding-left: 20px;
+  }
+  
+  .driver-summary .driver-name {
+    text-transform: uppercase;
+    font-family: "URWDINCond-Bold";
+    font-size: 24px;
+  }
+  
+  .driver-summary .driver-name .flag {
+    height: 30px;
+    padding-left: 15px;
+  }
+  
+  .driver-summary .driver-information {
+    padding: 0;
+  }
+  
+  .driver-summary .driver-information .information {
+    list-style: none;
+  }
+  
+  .driver-summary .driver-information h1 {
+    padding-left: 0%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .driver-summary .driver-information p {
+    padding-left: 0%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  
+}
+/*――――――――――――――――――――――――― ネーム　End ―――――――――――――――――――――――――*/
+
+/*――――――――――――――――――――――――― 内容　Top ―――――――――――――――――――――――――*/
+.row {
+  max-width: 100%;
+  position: static;
+  margin-left: 351.500px;
+  margin-right: 351.500px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  margin-top: -10px;
+}
+
+.col-1 {
+  margin-top: 20px;
+}
+
+.l-driver-profile {
+  font-family: "URWDINCond-Bold";
+  font-style: italic;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.l-driver-profile .biography-header {
+  font-family: "URWDINCond-Bold";
+  font-style: italic;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: 0px 0px;
+}
+
+.l-driver-profile .driver-profile {
+  padding-left: 20px;
+}
+
+.l-driver-profile .driver-primary-video {
+  margin: 1rem 0;
+}
+
+.l-driver-profile .driver-biography {
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: 0px 0px;
+}
+
+.l-driver-profile .driver-biography p :first-child {
+  margin: 0px 0px;
+}
+
+.l-driver-profile .driver-biography p {
+  margin: 15px 0px;
+}
+
+.imgcenter {
+  text-align: center;
+  padding-left: 0px;
+}
+
+.car_img {
+  width: 770px;
+}
+@media screen and (max-width: 480px) {
+  .row {
+    max-width: 100%;
+    position: static;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-top: -10px;
+  }
+  
+  .col-1 {
+    margin-top: 20px;
+  }
+  
+  .l-driver-profile {
+    font-family: "URWDINCond-Bold";
+    font-style: italic;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  
+  .l-driver-profile .biography-header {
+    font-family: "URWDINCond-Bold";
+    font-style: italic;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px 0px;
+  }
+  
+  .l-driver-profile .driver-profile {
+    padding-left: 20px;
+  }
+  
+  .l-driver-profile .driver-primary-video {
+    margin: 1rem 0;
+  }
+  
+  .l-driver-profile .driver-biography {
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px 0px;
+  }
+
+  .l-driver-profile .driver-biography p :first-child {
+    margin: 0px 0px;
+  }
+  
+  .l-driver-profile .driver-biography p {
+    margin: 15px 0px;
+  }
+  
+  .imgcenter {
+    text-align: center;
+    padding-left: 0px;
+  }
+
+  .car_img {
+    width: 85%;
+  }
+}
+/*――――――――――――――――――――――――― 内容　End ―――――――――――――――――――――――――*/
+
+/*――――――――――――――――――――――――― フッター　Top ―――――――――――――――――――――――――*/
+  .footer_space {
+    margin: 2.5%;
+  }
+  
+  footer {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background-color: #151515;
+  }
+  
+  footer p {
+    position: absolute;
+    font-size: 24px;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  @media screen and (max-width: 480px) {
+    .footer_space {
+      margin: 5%;
+    }
+    
+    footer {
+      position: relative;
+      width: 100%;
+      height: 80px;
+      background-color: #151515;
+    }
+    
+    footer p {
+      position: absolute;
+      font-size: 12px;
+      color: #ffffff;
+      margin: 0;
+      padding: 0;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
