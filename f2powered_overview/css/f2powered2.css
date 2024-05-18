@@ -513,6 +513,11 @@ a:hover {
     background-color: #151515;
   }
   
+  .footer_center_1{
+    display: flex;
+    flex-flow: column;
+  }
+
   .footer_p {
     position: absolute;
     font-size: 12px;
